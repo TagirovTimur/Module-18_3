@@ -19,7 +19,7 @@ from django.urls import path
 from task2.views import index
 from task2.views import index2
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('class/', index),
-    path('func/', index2),
+    path('', index),
+    path('list1/', index2),
+    path('list2/', index3),
 ]
